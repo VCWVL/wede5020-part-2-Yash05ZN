@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Checkers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="_images/FreshMartLogo.PNG" alt="Checkers Logo"> 
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <h2>Make an Enquiry</h2>
+            <p>Have questions about our products or services? Fill out the form below and our team will get back to you as soon as possible.</p>
+            
+            <div class="contact-form">
+                <form id="enquiryForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="enquiryType">Enquiry Type</label>
+                        <select id="enquiryType" name="enquiryType" required>
+                            <option value="">Select an option</option>
+                            <option value="product">Product Information</option>
+                            <option value="service">Service Information</option>
+                            <option value="delivery">Delivery Enquiry</option>
+                            <option value="account">Account Issue</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Submit Enquiry</button>
+                </form>
+            </div>
+            
+            <div style="margin-top: 3rem;">
+                <h3>Frequently Asked Questions</h3>
+                <div class="faq">
+                    <div class="faq-item">
+                        <h4>How do I place an order for delivery?</h4>
+                        <p>You can place an order for delivery through our Checkers Sixty60 app, available on iOS and Android. Simply download the app, browse products, and schedule your delivery.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>What are your delivery hours?</h4>
+                        <p>We deliver from 8:00 AM to 8:00 PM, seven days a week. You can choose a delivery slot that works best for you during the checkout process.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>How can I join the Xtra Savings program?</h4>
+                        <p>You can join the Xtra Savings program by visiting any Checkers store and filling out an application form, or you can register online through our website.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Checkers Sixty60</a></li>
+                        <li><a href="services.html">Xtra Savings</a></li>
+                        <li><a href="services.html">Online Shopping</a></li>
+                        <li><a href="services.html">Money Market</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                <ul>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="returns.html">Returns Policy</a></li>
+                    <li><a href="cookies.html">Cookie Policy</a></li>
+                </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <p>Subscribe to our newsletter for the latest updates and special offers.</p>
+                    <form>
+                        <input type="email" placeholder="Your email address" required style="padding: 0.8rem; width: 100%; margin-bottom: 0.5rem; border-radius: 5px; border: 1px solid #ddd;">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/checkerssa/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/checkers_sa/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/checkerssa/with_replies" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/checkers/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 FreshMart. All rights reserved. A division of Shoprite Holdings Ltd.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mainNav = document.getElementById('mainNav');
+            
+            // Mobile menu toggle
+            mobileMenuBtn.addEventListener('click', function() {
+                mainNav.classList.toggle('show');
+            });
+            
+            // Form submission
+            const enquiryForm = document.getElementById('enquiryForm');
+            enquiryForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your enquiry! We will get back to you soon.');
+                enquiryForm.reset();
+            });
+        });
+    </script>
+</body>
+</html>
